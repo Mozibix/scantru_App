@@ -1,5 +1,4 @@
 import React from "react";
-import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import img from "../../images/errorpic.png";
 import "../../styles/errorpage.scss";
