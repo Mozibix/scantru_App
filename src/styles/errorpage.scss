@@ -1,0 +1,109 @@
+@import "./colorhelpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.errorpage {
+  &_inner {
+    .top_sec {
+      .pic_sec {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+    }
+
+    .bottom_sec {
+      &_inner {
+        text-align: center;
+
+        .header_text {
+          p {
+            font-family: Inter;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 81px;
+            letter-spacing: 0.14em;
+          }
+        }
+
+        .contents {
+          margin-top: 32px;
+          margin-bottom: 43px;
+          p {
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            width: 707px;
+            height: 54px;
+            inset-inline-start: 257px;
+          }
+        }
+
+        .down_contents {
+          input {
+            height: 48px;
+            width: 596px;
+            border-radius: 30px;
+            border: 1px solid $border-color;
+            margin-bottom: 44px;
+            outline: none;
+            padding-left: 20px;
+
+            &::placeholder {
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: $placeholder-color;
+            }
+          }
+
+          .button_sec {
+            button {
+              border: none;
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: center;
+              height: 48px;
+              border-radius: 9px;
+            }
+            .search-btn {
+              width: 182px;
+              background-color: $black;
+              color: $white;
+              margin-right: 47px;
+              span {
+                color: $white;
+                background-color: $black;
+                inset: 4.6px 7px;
+                cursor: pointer;
+              }
+            }
+            .back-btn {
+              width: 212px;
+              background-color: $back-btn-bg-color;
+              span {
+                color: $white;
+                background-color: transparent;
+                inset: 4.6px 7px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "./colorhelpers.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: $main-bg-color;
+}
+
+.home {
+  margin-bottom: 121px;
+
+  &_inner {
+    .errorpage {
+      margin-top: 72px;
+    }
+  }
+}

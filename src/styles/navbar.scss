@@ -1,0 +1,61 @@
+@import "./colorhelpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navbar {
+  height: 67px;
+  width: 1211px;
+  inset: 46px 30px;
+
+  .navbar_inner {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+
+    .logo {
+      P {
+        font-family: Roboto Slab;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      inset: 0 120px;
+
+      li {
+        margin: 0 81px;
+      }
+    }
+    button {
+      background-color: $black;
+      color: $white;
+      height: 47px;
+      width: 122px;
+      border-radius: 8px;
+      font-family: Roboto Slab;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
