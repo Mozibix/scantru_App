@@ -14,6 +14,12 @@
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
+
+        @media screen and (max-width: 800px) {
+          width: 20rem;
+          height: 10rem;
+          inset: 0 3rem;
+        }
       }
     }
 
@@ -28,6 +34,10 @@
             font-weight: 700;
             line-height: 81px;
             letter-spacing: 0.14em;
+
+            @media screen and (max-width: 800px) {
+              font-size: 20px;
+            }
           }
         }
 
@@ -43,6 +53,13 @@
             width: 707px;
             height: 54px;
             inset-inline-start: 257px;
+
+            @media screen and (max-width: 800px) {
+              font-size: 12px;
+              width: 20rem;
+              height: 54px;
+              inset: -3rem 3rem;
+            }
           }
         }
 
@@ -56,6 +73,13 @@
             outline: none;
             padding-left: 20px;
 
+            @media screen and (max-width: 800px) {
+              height: 35px;
+              width: 400px;
+              margin-bottom: 20rem;
+              outline: none;
+            }
+
             &::placeholder {
               font-family: Inter;
               font-size: 20px;
@@ -68,6 +92,10 @@
           }
 
           .button_sec {
+            @media screen and (max-width: 800px) {
+              inset: -17rem 3rem;
+              display: flex;
+            }
             button {
               border: none;
               font-family: Inter;
@@ -78,12 +106,22 @@
               text-align: center;
               height: 48px;
               border-radius: 9px;
+
+              @media screen and (max-width: 800px) {
+                font-size: 16px;
+                height: 30px;
+                border-radius: 9px;
+              }
             }
             .search-btn {
               width: 182px;
               background-color: $black;
               color: $white;
               margin-right: 47px;
+
+              @media screen and (max-width: 800px) {
+                width: 120px;
+              }
               span {
                 color: $white;
                 background-color: $black;
@@ -94,6 +132,10 @@
             .back-btn {
               width: 212px;
               background-color: $back-btn-bg-color;
+
+              @media screen and (max-width: 800px) {
+                width: 150px;
+              }
               span {
                 color: $white;
                 background-color: transparent;

@@ -11,6 +11,10 @@
 .home {
   margin-bottom: 121px;
 
+    @media screen and (max-width:800px) {
+    height: 110vh;
+  }
+
   &_inner {
     .errorpage {
       margin-top: 72px;
