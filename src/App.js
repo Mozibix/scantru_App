@@ -1,11 +1,10 @@
 import React from "react";
-import { Home } from "./components/pages/Home";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Home />
+        <p>hello welcome to react app</p>{" "}
       </div>
     </div>
   );
