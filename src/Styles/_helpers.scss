@@ -1,0 +1,60 @@
+.btn_submit {
+  border: none;
+  text-align: center;
+  border-radius: 0px 12px 12px 0px;
+  background: linear-gradient(95.1deg, #9e61f9 -36.56%, #18f29d 152.95%);
+  cursor: pointer;
+  color: $white;
+
+  &.bg {
+    height: 64px;
+    width: 241px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+}
+
+input {
+  outline: none;
+  &[type="email"] {
+    height: 64px;
+    width: 313px;
+    border-radius: 12px 0px 0px 12px;
+    padding-left: 32px;
+    background-color: $light_bg;
+    border: none;
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $small_text;
+  }
+
+  &.bg_white {
+    background-color: $white;
+  }
+
+  &.borders {
+    border: 1px solid rgba(106, 12, 245, 0.5);
+  }
+}
+
+.learn_more_btn {
+  height: 64px;
+  width: 10.5rem;
+  border-radius: 12px;
+  border: none;
+  color: $logo_text;
+  cursor: pointer;
+  background-color: $white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}

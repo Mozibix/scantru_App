@@ -42,3 +42,30 @@ export const servicesData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
 ];
+
+export const numberFlex = [
+  {
+    id: 1,
+    number: "./images/1.svg",
+    large_text: "Robust e-commerce AI powered search",
+    small_text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    learn_more: "Learn more",
+  },
+  {
+    id: 2,
+    number: "./images/2.svg",
+    large_text: "Comprehensive vendor comparison",
+    small_text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    learn_more: "Learn more",
+  },
+  {
+    id: 3,
+    number: "./images/3.svg",
+    large_text: "Extensive products result",
+    small_text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    learn_more: "Learn more",
+  },
+];

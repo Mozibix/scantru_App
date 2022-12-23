@@ -1,0 +1,53 @@
+@import "./colors";
+@import "./helpers";
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+section {
+  &.location {
+    text-align: center;
+    padding: 108px 0 0 0;
+    .top_text {
+      margin-bottom: 5rem;
+      p {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+      }
+    }
+
+    .image {
+      margin-bottom: 8rem;
+      img {
+        width: 57rem;
+        border-radius: 0px;
+      }
+    }
+
+    .input_sec {
+      &_inner {
+        border: 2px solid rgba(24, 242, 157, 0.5);
+        margin: 7.5rem;
+        padding: 3rem;
+        height: 16rem;
+        width: 67rem;
+        border-radius: 35px;
+        background-color: $numberflex_bg;
+        h4 {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 37px;
+          letter-spacing: 0em;
+          padding-bottom: 42px;
+        }
+      }
+    }
+  }
+}

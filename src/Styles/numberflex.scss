@@ -1,0 +1,76 @@
+@import "./colors";
+@import "./helpers";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+section {
+  &.number_flex {
+    background-color: $numberflex_bg;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .number_box {
+      margin: 17rem 0 11rem 0;
+      padding: 40px 55px;
+      text-align: center;
+      height: 24rem;
+      width: 25rem;
+      border-radius: 16px;
+      background-color: $white;
+      box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.05);
+      border-radius: 16px;
+
+      .number_icon {
+        img {
+          opacity: 0.5;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+
+      .large_text {
+        inset: -6rem 0;
+        p {
+          opacity: 1;
+          color: $small_text;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 37px;
+          letter-spacing: 0em;
+        }
+      }
+
+      .small_text {
+        p {
+          inset: -4rem 0;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 25px;
+          letter-spacing: 0em;
+        }
+      }
+
+      .learn_more {
+        p {
+          inset: 1rem 0;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          color: $logo_text;
+        }
+      }
+    }
+  }
+}

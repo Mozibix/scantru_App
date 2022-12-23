@@ -1,6 +1,9 @@
 import React from "react";
+import Footer from "./Footer";
 import Hero from "./Hero";
+import Location from "./Location";
 import Nav from "./Nav";
+import NumberFlex from "./NumberFlex";
 import Scantru from "./Scantru";
 import Services from "./Services";
 
@@ -22,6 +25,18 @@ const Home = () => {
 
         <div className="scantru_Sec">
           <Scantru />
+        </div>
+
+        <div className="number_flex">
+          <NumberFlex />
+        </div>
+
+        <div className="location">
+          <Location />
+        </div>
+
+        <div className="footer">
+          <Footer />
         </div>
       </section>
     </>

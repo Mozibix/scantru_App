@@ -23,7 +23,7 @@ const Scantru = () => {
                   </p>
                 </div>
 
-                <button className="learn_more">Learn more</button>
+                <button className="learn_more_btn">Learn more</button>
               </div>
             </div>
           </div>

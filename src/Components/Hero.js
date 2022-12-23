@@ -27,7 +27,9 @@ const Hero = () => {
               </p>
               <form>
                 <input type="email" placeholder="email address" required />
-                <button type="submit">Tell me when it happens</button>
+                <button className="btn_submit bg" type="submit">
+                  Tell me when it happens
+                </button>
               </form>
             </div>
 
