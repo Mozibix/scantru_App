@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import Nav from "./Nav";
+import Scantru from "./Scantru";
 import Services from "./Services";
 
 const Home = () => {
@@ -17,6 +18,10 @@ const Home = () => {
 
         <div className="services_sec">
           <Services />
+        </div>
+
+        <div className="scantru_Sec">
+          <Scantru />
         </div>
       </section>
     </>

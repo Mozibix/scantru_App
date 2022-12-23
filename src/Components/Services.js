@@ -18,7 +18,7 @@ const ServiceGrid = (props) => {
     <>
       <div className="service_box">
         <div className="icons">
-          <img src={props.icon} />
+          <img src={props.icon} alt="icons" />
         </div>
         <div className="service_details">
           <p className="service_head">{props.header}</p>
