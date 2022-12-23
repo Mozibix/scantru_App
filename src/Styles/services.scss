@@ -1,0 +1,56 @@
+@import "./colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+section {
+  &.service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+    width: 70rem;
+    padding-left: 10em;
+    margin-top: 10rem;
+    .service_box {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+
+      .icons {
+        img {
+          inset: 0.5rem 0;
+        }
+      }
+
+      .service_details {
+        p {
+          color: $small_text;
+          &.service_head {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 37px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 20rem;
+          }
+
+          &.service_quote {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 18rem;
+            padding-top: 17px;
+          }
+        }
+      }
+    }
+  }
+}
